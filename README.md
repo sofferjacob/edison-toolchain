@@ -1,5 +1,5 @@
-# Sierra Toolchain
-This is the toolchain used to cross-compile Sierra from source. It is compatible with any kind of
+# Edison Toolchain
+This toolchain can be used to cross-compile software for the i386-elf architecture. It is compatible with any kind of
 architecture (host).
 
 # Using it.
