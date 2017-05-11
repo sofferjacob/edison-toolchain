@@ -1,5 +1,5 @@
 # Edison Toolchain
-This toolchain can be used to cross-compile software for the i386-elf architecture. It is compatible with any kind of
+This toolchain can be used to cross-compile software for the arm-eabi architecture. It is compatible with any kind of
 architecture (host).
 
 # Using it.
