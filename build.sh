@@ -12,8 +12,8 @@ ln -s ../mpfr-3.1.5 mpfr
 ln -s ../gmp-6.1.1 gmp
 ln -s ../mpc-1.0.3 mpc
 cd ..
-export PREFIX="$HOME/opt/cross"
-export TARGET=i686-elf
+export PREFIX="$HOME/toolchains/arm"
+export TARGET=arm-eabi
 export PATH="$PREFIX/bin:$PATH"
 echo $PREFIX
 echo $TARGET
