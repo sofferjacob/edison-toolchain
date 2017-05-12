@@ -1,6 +1,6 @@
 Edison Toolchain
 Toolchain Name: Edison Toolchain.
 Toolchain Version: 2.0
-Release Notes:
+Release Notes: https://github.com/sofferjacob/edison-toolchain/releases/tag/v2.0
 License: GNU GPL 3
 Target platform: i386-elf
