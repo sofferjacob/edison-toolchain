@@ -14,10 +14,15 @@ Wait a while for your toolchain to download and build, then you will have your t
 ## How to check which version you are using?
 Starting with toolchain verion 2.0, to check which version of the toolchain check the file ``toolchain.info`` in the toolchain install directory.
 
-> Current stable version: 2.0
+## Porting to a different target architecture
+To port the toolchain to a different architecture, just change the ``TARGET=`` field in line 17 of ``build.sh`` and if you feel like sharing create a pull request.
 
-> Current GCC: 7.1.0
+> Current stable version: 2.0 
 
-> Current Binutils: 2.8
+> Current GCC: 7.1.0 
+
+> Current Binutils: 2.8 
+
+> Supported archs: i386-elf, arm-eabi
 
 Copyright (c) 2017 Jacobo Soffer.
