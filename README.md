@@ -9,6 +9,6 @@ cd toolchain
 ./build.sh
 ```
 
-Wait a while for your toolchain to download and build, then you will have your toolchain installed in /opt/cross.
+Wait a while for your toolchain to download and build, then you will have your toolchain installed in ``home/toolchains/arm.``
 
 Copyright (c) 2017 Jacobo Soffer.
