@@ -19,6 +19,7 @@ export PATH="$PREFIX/bin:$PATH"
 echo $PREFIX
 echo $TARGET
 echo $PATH
+cp toolchain.info $PREFIX
 echo Building Binutils…
 mkdir binutils-build
 cd binutils-build
