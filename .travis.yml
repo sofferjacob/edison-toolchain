@@ -1,0 +1,5 @@
+language: c
+after_script:
+- echo "Starting build"
+- ./build.sh
+- echo "Build concluded
