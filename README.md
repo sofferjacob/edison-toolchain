@@ -1,4 +1,6 @@
 # Edison Toolchain
+[![Build Status](https://travis-ci.org/sofferjacob/edison-toolchain.svg?branch=master)](https://travis-ci.org/sofferjacob/edison-toolchain)
+
 This toolchain can be used to cross-compile software for the i386-elf architecture. It is compatible with any kind of
 architecture (host).
 
