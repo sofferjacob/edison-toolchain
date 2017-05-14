@@ -1,5 +1,5 @@
 language: c
-after_script:
-- echo "Starting build"
+script:
+- echo "Starting toolchain build"
 - ./build.sh
-- echo "Build concluded
+- echo "Build finished"
