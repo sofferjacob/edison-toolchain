@@ -13,7 +13,7 @@ wget -i wget-list
 echo Extracting archives…
 for f in *.tar*; do tar xf $f; done
 echo Preparing to build…
-cd gcc-9.2.0
+cd gcc-7.4.0
 ln -s ../mpfr-4.0.2 mpfr
 ln -s ../gmp-6.1.2 gmp
 ln -s ../mpc-1.0.3 mpc
@@ -35,7 +35,7 @@ cd ..
 echo Building GCC…
 mkdir gcc-build
 cd gcc-build
-../gcc-9.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
+../gcc-7.4.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
 make all-gcc
 make all-target-libgcc
 make install-gcc
