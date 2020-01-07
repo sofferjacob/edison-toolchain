@@ -1,8 +1,7 @@
-# Edison Toolchain
+# JSLK Toolchain
 [![Build Status](https://travis-ci.org/sofferjacob/edison-toolchain.svg?branch=master)](https://travis-ci.org/sofferjacob/edison-toolchain)
 
-This toolchain can be used to cross-compile software for the i386-elf architecture. It is compatible with any kind of
-architecture (host).
+The toolchain used to cross-compile the JSLK kernel.
 
 # Using it.
 You can build it and use the toolchain in any UNIX like OS (Linux, macOS, BSD). First clone the repository to your computer and run:
@@ -19,12 +18,12 @@ Starting with toolchain verion 2.0, to check which version of the toolchain chec
 ## Porting to a different target architecture
 To port the toolchain to a different architecture, just change the ``TARGET=`` field in line 17 of ``build.sh`` and if you feel like sharing create a pull request.
 
-> Current stable version: 2.0 
+> Current stable version: 3.0 
 
-> Current GCC: 7.1.0 
+> Current GCC: 9.2.0 
 
-> Current Binutils: 2.8 
+> Current Binutils: 2.33.1 
 
-> Supported archs: i386-elf, arm-eabi
+> Supported archs: i386-elf
 
-Copyright (c) 2017 Jacobo Soffer.
+
