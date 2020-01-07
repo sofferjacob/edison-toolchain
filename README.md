@@ -24,6 +24,6 @@ To port the toolchain to a different architecture, just change the ``TARGET=`` f
 
 > Current Binutils: 2.33.1 
 
-> Supported archs: i386-elf
+> Supported cross-compile archs: i386-elf
 
 
