@@ -16,7 +16,7 @@ echo Preparing to build…
 cd gcc-7.4.0
 ln -s ../mpfr-4.0.2 mpfr
 ln -s ../gmp-6.1.2 gmp
-ln -s ../mpc-1.0.3 mpc
+ln -s ../mpc-1.1.0 mpc
 cd ..
 export PREFIX="$HOME/toolchains/i386"
 export TARGET=i386-elf
