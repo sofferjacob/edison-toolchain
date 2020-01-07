@@ -1,6 +1,6 @@
-Edison Toolchain
-Toolchain Name: Edison Toolchain.
-Toolchain Version: 2.0
-Release Notes: https://github.com/sofferjacob/edison-toolchain/releases/tag/v2.0
+JSLK Toolchain
+Toolchain Name: JSLK Toolchain.
+Toolchain Version: 3.0
+Release Notes: https://github.com/sofferjacob/jslk-toolchain/releases/tag/v3.0
 License: GNU GPL 3
-Target platform: i386-elf
+Supported platforms: i386-elf
